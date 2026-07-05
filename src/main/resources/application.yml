@@ -1,0 +1,3 @@
+climalert:
+  weather-api:
+    api-key: ${WEATHER_API_KEY:43c34d1a719f495fa06193253263006}
