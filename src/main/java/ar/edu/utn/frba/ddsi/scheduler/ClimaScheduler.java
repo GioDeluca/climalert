@@ -1,12 +1,10 @@
 package ar.edu.utn.frba.ddsi.scheduler;
 
 import ar.edu.utn.frba.ddsi.service.ClimaAlertService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-@Slf4j
 public class ClimaScheduler {
 
     private final ClimaAlertService service;

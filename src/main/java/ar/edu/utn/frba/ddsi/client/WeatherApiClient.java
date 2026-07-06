@@ -2,14 +2,12 @@ package ar.edu.utn.frba.ddsi.client;
 
 import ar.edu.utn.frba.ddsi.dto.WeatherApiResponse;
 import ar.edu.utn.frba.ddsi.model.RegistroClima;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.client.RestClientException;
 
 @Component
-@Slf4j
 public class WeatherApiClient {
 
     private static final String BASE_URL = "https://api.weatherapi.com/v1";
